@@ -8,6 +8,7 @@ import index from './components/index.vue'
 // 使用路由中间件
 Vue.use(VueRouter);
 
+// 实例化路由组件
 const router = new VueRouter({
   routes:[
     {
