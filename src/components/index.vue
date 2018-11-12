@@ -29,7 +29,7 @@
                                                 <a href="/goods/40.html">{{item.title}}</a>
                                             </dt>
                                             <dd>
-                                                <a href="/goods/43.html" v-for="(itemSon, i) in item.subcates" :key="itemSon.id">手机通讯</a>
+                                                <a href="/goods/43.html" v-for="(itemSon, i) in item.subcates" :key="itemSon.id">{{itemSon.title}}</a>
                                             </dd>
                                         </dl>
                                     </div>
